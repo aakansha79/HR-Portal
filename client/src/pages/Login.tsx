@@ -85,7 +85,7 @@ function Login() {
                 <div className="absolute top-[-10%] right-[-5%] w-[50%] h-[50%] rounded-full bg-primary/6 blur-3xl pointer-events-none" />
                 <div className="absolute bottom-[-10%] left-[-5%] w-[40%] h-[40%] rounded-full bg-primary/4 blur-3xl pointer-events-none" />
 
-                <div className="relative w-full max-w-[420px] animate-slide-up-fade">
+                <div className="relative w-full max-w-105 animate-slide-up-fade">
                     {/* Mobile brand */}
                     <div className="flex items-center gap-3 mb-8 lg:hidden">
                         <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center shadow-lg shadow-primary/25">
@@ -136,7 +136,7 @@ function Login() {
                                         <div className="flex items-center justify-between">
                                             <Label htmlFor="password" className="text-sm font-semibold">Password</Label>
                                             <a href="#" className="text-xs font-semibold text-primary hover:text-primary/75 transition-colors">
-                                                Forgot password?
+                                                .
                                             </a>
                                         </div>
                                         <Input
@@ -174,10 +174,7 @@ function Login() {
 
                         <CardFooter className="flex flex-col pt-4 pb-5">
                             <p className="text-xs text-muted-foreground text-center leading-relaxed">
-                                By signing in, you agree to our{" "}
-                                <a href="#" className="underline underline-offset-3 hover:text-primary transition-colors">Terms</a>
-                                {" "}and{" "}
-                                <a href="#" className="underline underline-offset-3 hover:text-primary transition-colors">Privacy Policy</a>
+                                By signing in, acces the project
                             </p>
                         </CardFooter>
                     </Card>

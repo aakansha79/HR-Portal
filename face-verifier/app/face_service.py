@@ -9,8 +9,6 @@ from deepface import DeepFace
 from app.config import settings
 from app.database import collection
 
-
-
 def _load_image(image_bytes: bytes) -> np.ndarray:
     array = np.frombuffer(image_bytes, dtype=np.uint8)
     image = cv2.imdecode(array, cv2.IMREAD_COLOR)
