@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NexusHR
 
 > A full-stack Human Resource Management System (HRMS) built for Restroworks, featuring role-based access control, offline-first attendance, payroll processing, leave management, and real-time sync.
@@ -1198,3 +1199,6 @@ Error responses follow the same shape with `success: false` and the appropriate 
 ---
 
 *NexusHR — Built with ❤️ for Restroworks*
+=======
+# HR-Portal
+>>>>>>> d8c660daf9b73386245bb4bae6909169cd6b48b8
