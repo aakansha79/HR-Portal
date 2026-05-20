@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   apps: [
     {
       name: "nexushr-backend",
@@ -10,8 +10,8 @@ export default {
       autorestart: true,
       watch: false,
       env: {
-        NODE_ENV: "production"
-      }
+        NODE_ENV: "production",
+      },
     },
     {
       name: "nexushr-image-worker",
@@ -23,8 +23,8 @@ export default {
       autorestart: true,
       watch: false,
       env: {
-        NODE_ENV: "production"
-      }
+        NODE_ENV: "production",
+      },
     },
     {
       name: "nexushr-payroll-worker",
@@ -36,8 +36,8 @@ export default {
       autorestart: true,
       watch: false,
       env: {
-        NODE_ENV: "production"
-      }
+        NODE_ENV: "production",
+      },
     },
     {
       name: "nexushr-payroll-batch",
@@ -49,8 +49,8 @@ export default {
       autorestart: true,
       watch: false,
       env: {
-        NODE_ENV: "production"
-      }
+        NODE_ENV: "production",
+      },
     },
     {
       name: "nexushr-mails-worker",
@@ -62,8 +62,8 @@ export default {
       autorestart: true,
       watch: false,
       env: {
-        NODE_ENV: "production"
-      }
+        NODE_ENV: "production",
+      },
     },
     {
       name: "nexushr-analytics-worker",
@@ -75,8 +75,8 @@ export default {
       autorestart: true,
       watch: false,
       env: {
-        NODE_ENV: "production"
-      }
+        NODE_ENV: "production",
+      },
     },
     {
       name: "nexushr-client",
@@ -89,8 +89,8 @@ export default {
       autorestart: true,
       watch: false,
       env: {
-        NODE_ENV: "development"
-      }
-    }
-  ]
+        NODE_ENV: "development",
+      },
+    },
+  ],
 };
